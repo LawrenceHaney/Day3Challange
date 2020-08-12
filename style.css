@@ -7,7 +7,7 @@ width: 100ch;
 }
 
 #mount{
-  height: 20vh;
+  height: 15vh;
   width: 10ch;
   align-self: center;
   background-color: black;
@@ -25,7 +25,7 @@ width: 100ch;
 }
 
 .light{
-border-radius: 100%;
+border-radius: 50%;
 height: 15vh;
 width: 15ch;
 align-self: center;
@@ -36,11 +36,18 @@ justify-content: space-evenly;
 .red{
   background-color: red;
 }
-
+.red:hover{
+  box-shadow: 0 0 40px rgb(250, 85, 85);
+}
 .yellow{
   background-color: yellow;
 }
-
+.yellow:hover{
+  box-shadow: 0 0 40px rgb(255, 255, 121);
+}
 .green{
-  background-color: green;
+  background-color: forestgreen;
+}
+.green:hover{
+  box-shadow: 0 0 40px rgb(77, 143, 77);
 }
